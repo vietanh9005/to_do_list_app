@@ -1,8 +1,16 @@
 import mongoose from "mongoose";
 
 const connectDB = async () => {
+    const connectionString =
+        process.env.MONGODB_CONNECTION_STRING ||
+        process.env.MONOGODB_CONNECTION_STRING;
+
+    if (!connectionString) {
+        throw new Error("Missing MONGODB_CONNECTION_STRING environment variable");
+    }
+
     try {
-        await mongoose.connect(process.env.MONOGODB_CONNECTION_STRING);
+        await mongoose.connect(connectionString);
 
         console.log("MongoDB connected");
     } catch (error) {
