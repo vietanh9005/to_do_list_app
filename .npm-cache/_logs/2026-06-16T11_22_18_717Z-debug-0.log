@@ -1,0 +1,27 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.13.0
+2 info using node@v26.1.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Liem\Desktop\To do list\backend\.npmrc
+5 silly config load:file:C:\Users\Liem\.npmrc
+6 silly config load:file:C:\Users\Liem\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install mongoose@9.7.0
+8 verbose argv "install" "mongoose@9.7.0" "--no-save" "--force" "--package-lock" "false" "--prefer-offline"
+9 verbose logfile logs-max:10 dir:C:\Users\Liem\Desktop\To do list\.npm-cache\_logs\2026-06-16T11_22_18_717Z-
+10 verbose logfile C:\Users\Liem\Desktop\To do list\.npm-cache\_logs\2026-06-16T11_22_18_717Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+14 silly idealTree buildDeps
+15 silly fetch manifest dotenv@^17.4.2
+16 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+17 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+18 http fetch GET https://registry.npmjs.org/dotenv attempt 1 failed with EACCES
+19 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with EACCES
+20 http fetch GET https://registry.npmjs.org/dotenv attempt 2 failed with EACCES
+21 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with EACCES
+22 http fetch GET https://registry.npmjs.org/dotenv attempt 3 failed with EACCES
+23 silly fetch manifest express@^4.18.2
+24 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+25 http fetch GET https://registry.npmjs.org/express attempt 1 failed with EACCES
+26 http fetch GET https://registry.npmjs.org/express attempt 2 failed with EACCES
